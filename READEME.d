@@ -23,13 +23,13 @@ It allows users to search for any movie and instantly get details such as poster
 ## 🖼 Screenshots
 
 ### 🏠 Home Page
-![Home](screenshots/home.png)
+![Home](screenshots/home.PNG)
 
 ### 🔍 Search Page
-![Search](screenshots/search.png)
+![Search](screenshots/search.PNG)
 
 ### 🎥 Movie Result
-![Result](screenshots/result.png)
+![Result](screenshots/result.PNG)
 
 ---
 
