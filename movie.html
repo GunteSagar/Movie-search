@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details</title>
+
+    <style>
+        body {
+            background-color: aqua;
+            font-family: Arial;
+            padding: 20px;
+            
+        }
+        .details {
+            max-width: 700px;
+            margin: auto;
+            background-color: rgba(233, 68, 186, 0.938);
+            padding: 20px;
+            border-radius: 12px;
+        }
+      
+        img {
+            width: 250px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="details" id="details"></div>
+
+<template id="details-template">
+    <div>
+        <h1 class="title"></h1>
+        <img class="poster">
+
+        <p><b>Genre:</b> <span class="genre"></span></p>
+        <p><b>Rating:</b> ⭐ <span class="rating"></span></p>
+        <p><b>Awards:</b> <span class="awards"></span></p>
+        <p><b>Box Office:</b> <span class="boxoffice"></span></p>
+        <p><b>Actors:</b> <span class="actors"></span></p>
+        <p><b>Writer:</b> <span class="writer"></span></p>
+        <p><b>Director:</b> <span class="director"></span></p>
+        <p><b>Country:</b> <span class="country"></span></p>
+        <p><b>Language:</b> <span class="language"></span></p>
+        <p><b>Released:</b> <span class="released"></span></p>
+        <p><b>Runtime:</b> <span class="runtime"></span></p>
+
+        <h3>Plot</h3>
+        <p class="plot"></p>
+    </div>
+</template>
+
+<script src="movie.js"></script>
+
+</body>
+</html>
